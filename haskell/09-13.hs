@@ -15,7 +15,3 @@ fib' n = fibhelp n 0 1 where
 fib'' n = let
   fibhelp n a b = if n == 0 then a else fibhelp (n-1) b (a+b)
   in fibhelp n 0 1
-
--- Built-in functions
-map odd [1,2,3,4,5,6,7]
-foldl (+) 0 [1,2,3,4,5,6,7]
